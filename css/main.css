@@ -91,12 +91,14 @@ body {
   display: block;
   padding: 32px 0px;
 }
-.site-nav a {
+.site-nav .list a {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  color: var(--primary-text-color);
   letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
 }
 
 .site-nav a:hover,
