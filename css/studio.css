@@ -16,15 +16,7 @@
 }
 
 /* Герой */
-.section-hero {
-  display: flex;
-  padding-top: 200px;
-  padding-bottom: 200px;
 
-  background-color: #ee22ee;
-
-  text-align: center;
-}
 .hero-container {
   margin-left: auto;
   margin-right: auto;
