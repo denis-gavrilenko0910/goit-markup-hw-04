@@ -16,13 +16,13 @@
   --border-color: #afb1b8;
   --secondary-background-color: #f5f4fa;
   --clients-hover-color: #2196f3;
+  --main-icon-fill: #757575;
 }
 
 .list {
   list-style: none;
 }
 
-/* Шапка сайта */
 .container {
   width: 1200px;
 
@@ -50,17 +50,6 @@ body {
 
 /* Шапка сайта */
 
-.navigation {
-  display: flex;
-  align-items: center;
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -72,8 +61,16 @@ body {
 .logo-web {
   color: var(--accent-color);
 }
+.navigation {
+  display: flex;
+  align-items: center;
 
-/* Навигация */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 
 .site-nav {
   padding: 0px;
@@ -109,8 +106,17 @@ body {
   color: var(--accent-color);
 }
 
-/* Почта и телефон */
-
+/* Шапка. Почта и телефон */
+.mail-icon {
+  width: 16px;
+  height: 12px;
+  fill: var(--main-icon-fill);
+}
+.mob-icon {
+  width: 10px;
+  height: 16px;
+  fill: var(--main-icon-fill);
+}
 .mail-tel .list:not(:last-child) {
   margin-right: 30px;
 }
@@ -146,9 +152,8 @@ body {
   background: var(--hover-color);
 }
 
-/* СТИЛИ ФУТЕРА */
+/* Футер */
 
-/* Адрес и лого */
 .footer {
   background-color: var(--footer-background-color);
 }
