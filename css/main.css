@@ -105,7 +105,6 @@ body {
 .site-nav .current {
   color: var(--accent-color);
 }
-
 /* Шапка. Почта и телефон */
 .mail-icon {
   width: 16px;
