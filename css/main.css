@@ -75,7 +75,7 @@ body {
   margin-right: 50px;
 }
 .site-nav a {
-  display: block;
+  display: flex;
   padding: 32px 0px;
   color: var(--primary-text-color);
 }
@@ -87,8 +87,18 @@ body {
 .site-nav a:focus {
   color: var(--primary-button-color);
 }
+.site-nav .list a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 .site-nav .list .current {
   color: var(--accent-color);
+}
+.navigation {
+  display: flex;
+  align-items: center;
 }
 /* Шапка. Почта и телефон */
 .mail-icon {
