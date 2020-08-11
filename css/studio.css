@@ -211,6 +211,19 @@
 .team .list:nth-child(4n) {
   margin-right: 0px;
 }
+.socials {
+  margin: 0px;
+  padding: 0px;
+}
+.socials .list {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.socials-icon {
+  width: 20px;
+  height: 20px;
+}
 
 /* Постоянные клиенты */
 .clients {

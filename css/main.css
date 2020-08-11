@@ -61,16 +61,6 @@ body {
 .logo-web {
   color: var(--accent-color);
 }
-.navigation {
-  display: flex;
-  align-items: center;
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
 
 .site-nav {
   padding: 0px;
@@ -87,22 +77,17 @@ body {
 .site-nav a {
   display: block;
   padding: 32px 0px;
-}
-.site-nav .list a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
   color: var(--primary-text-color);
 }
-
+.site-nav .list {
+  display: flex;
+  align-items: center;
+}
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--primary-button-color);
 }
-.site-nav .current {
+.site-nav .list .current {
   color: var(--accent-color);
 }
 /* Шапка. Почта и телефон */
@@ -121,6 +106,7 @@ body {
 }
 .mail-tel {
   display: flex;
+
   margin: 0px;
   padding: 0px;
 }
