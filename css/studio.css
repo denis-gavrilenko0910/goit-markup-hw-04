@@ -15,6 +15,7 @@
   --border-color: #afb1b8;
   --features-background-color: #f5f4fa;
   --clients-hover-color: #2196f3;
+  --main-icon-fill: #757575;
 }
 
 /* Герой */
@@ -48,7 +49,7 @@
   background-color: var(--hero-background-color);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
+      rgba(1, 22, 255, 0.4)
     ),
     url('../img/header-img/headerimg.jpg');
   background-repeat: no-repeat;
@@ -88,28 +89,13 @@
   margin-right: 0px;
 }
 
-.features .list::before {
-  display: block;
-  content: '';
-  height: 120px;
+.features-background {
   margin-bottom: 30px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--features-background-color);
+  height: 120px;
   border-radius: 4px;
-}
-.icon-antenna::before {
-  background-image: url('../img/svg/features/antenna.svg');
-}
-.icon-clock::before {
-  background-image: url('../img/svg/features/clock.svg');
-}
-.icon-diagram::before {
-  background-image: url('../img/svg/features/diagram.svg');
-}
-.icon-astronaut::before {
-  background-image: url('../img/svg/features/astronaut.svg');
+
+  text-align: center;
+  background-color: var(--features-background-color);
 }
 
 .features-title {
@@ -167,16 +153,6 @@
 /* Наша команда */
 .photo {
   display: block;
-}
-
-.team {
-  display: flex;
-  flex-wrap: wrap;
-
-  margin: 0px;
-  padding: 0px;
-}
-.team .photo {
   margin-bottom: 30px;
 }
 .team .list {
@@ -185,9 +161,8 @@
   text-align: center;
   background: var(--main-background-color);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
 .team .list:nth-child(4n) {
   margin-right: 0px;
 }

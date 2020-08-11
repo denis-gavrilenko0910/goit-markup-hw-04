@@ -8,13 +8,15 @@
   --accent-color: #2196f3;
   --mail-tel-hover-color: #2196f3;
   --hover-color: #188ce8;
+  --hero-background-color: #c4c4c4;
+  --hero-overlay-color: rgba(47, 48, 58, 0.4);
   --hero-text-color: #ffffff;
   --main-background-color: #ffffff;
   --footer-background-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --primary-button-color: #2196f3;
   --border-color: #afb1b8;
-  --secondary-background-color: #f5f4fa;
+  --features-background-color: #f5f4fa;
   --clients-hover-color: #2196f3;
   --main-icon-fill: #757575;
 }
