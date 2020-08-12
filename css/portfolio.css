@@ -3,13 +3,23 @@
   --secondary-text-color: #757575;
   --third-text-color: #ffffff;
   --accent-color: #2196f3;
+  --mail-tel-hover-color: #2196f3;
   --hover-color: #188ce8;
+  --hero-background-color: #c4c4c4;
+  --hero-overlay-color: rgba(47, 48, 58, 0.4);
   --hero-text-color: #ffffff;
   --main-background-color: #ffffff;
   --footer-background-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --primary-button-color: #2196f3;
-  --radio-buttons-backgroun-color: #f5f4fa;
+  --border-color: #afb1b8;
+  --features-background-color: #f5f4fa;
+  --clients-hover-color: #2196f3;
+  --socials-hover-color: #2196f3;
+  --socials-hover-fill: #ffffff;
+  --icon-fill: #afb1b8;
+  --team-background-color: #f5f4fa;
+  --radio-buttons-background-color: #f5f4fa;
 }
 .flex-list {
   list-style: none;
@@ -36,8 +46,8 @@
   border-radius: 4px;
 
   color: var(--primary-text-color);
-  background-color: var(--radio-buttons-backgroun-color);
-  font-family: Roboto;
+  background-color: var(--radio-buttons-background-color);
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
