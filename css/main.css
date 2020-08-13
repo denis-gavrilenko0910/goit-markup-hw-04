@@ -226,7 +226,7 @@ body {
   height: 44px;
   margin-right: 10px;
 }
-.foter-link {
+.footer-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,7 +236,7 @@ body {
   background-color: var(--footer-icon-background-color);
   fill: var(--footer-icon-fill);
 }
-.foter-link:hover {
+.footer-link:hover {
   background-color: var(--socials-hover-color);
   fill: var(--socials-hover-fill);
 }
