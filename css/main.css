@@ -164,13 +164,13 @@ body {
 }
 .footer-container {
   display: flex;
+  padding: 60px 0px;
 }
 .address-info {
-  padding: 60px 0px;
   font-style: normal;
 }
 .footer-logo {
-  display: flex;
+  display: inline-block;
   margin-bottom: 20px;
   font-family: Raleway;
   font-style: normal;
@@ -183,7 +183,7 @@ body {
 .studio-title {
   color: var(--third-text-color);
 }
-.address-items {
+.address-container {
   margin-right: 70px;
   font-style: normal;
   font-weight: normal;
@@ -203,8 +203,6 @@ body {
 }
 .socials-container {
   margin-right: 93px;
-  padding-top: 72px;
-  padding-bottom: 100px;
 }
 .text-join {
   display: flex;
@@ -246,8 +244,6 @@ body {
 }
 .asign-container {
   display: block;
-  padding-top: 72px;
-  padding-bottom: 94px;
 }
 .subscribe-text {
   display: flex;
