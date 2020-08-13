@@ -25,16 +25,11 @@
   --footer-icon-background-color: rgba(255, 255, 255, 0.1);
 }
 
-.list {
-  list-style: none;
-}
-.socials-list {
-  list-style: none;
-}
-.footer-socials {
-  list-style: none;
-}
-.site-nav-list {
+.socials-list,
+.footer-socials,
+.list,
+.site-nav-list,
+.contacts-list {
   list-style: none;
 }
 
@@ -112,33 +107,41 @@ body {
 }
 
 /* Шапка. Почта и телефон */
-
 .contacts {
   display: flex;
-  margin: 0px;
-  padding: 0px;
+  align-items: center;
+
+  font-style: normal;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
-.contacts .list:not(:last-child) {
-  margin-right: 30px;
-}
-.envelope-icon {
-  margin-right: 10px;
-  fill: var(--secondary-text-color);
-}
+.envelope-icon,
 .smartphone-icon {
   margin-right: 10px;
+}
+.tel-link,
+.mail-link {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
   fill: var(--secondary-text-color);
 }
-
-.contacts-item {
-  color: var(--secondary-text-color);
+.mail-link {
+  margin-left: 0px;
 }
-.contacts-item:hover,
-.contacts-item:focus {
+.mail-link:hover,
+.tel-link:hover {
   color: var(--mail-tel-hover-color);
+  fill: var(--mail-tel-hover-color);
 }
-
 /* Акцентные кнопки */
 
 .button {
