@@ -15,8 +15,10 @@
   --footer-background-color: #2f303a;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --primary-button-color: #2196f3;
+  --border-color: #afb1b8;
   --features-background-color: #f5f4fa;
   --clients-hover-color: #2196f3;
+  --clients-hover-fill: #2196f3;
   --socials-hover-color: #2196f3;
   --socials-hover-fill: #ffffff;
   --icon-fill: #afb1b8;
@@ -167,36 +169,39 @@ body {
 }
 .footer-container {
   display: flex;
-  padding: 60px 0px;
+  padding: 60px 15px;
+  align-items: center;
 }
 .address-info {
   font-style: normal;
 }
 .footer-logo {
-  display: inline-block;
+  display: block;
   margin-bottom: 20px;
+
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19px;
   letter-spacing: 0.03em;
 }
-
 .studio-title {
   color: var(--third-text-color);
 }
 .address-container {
   margin-right: 70px;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
 .footer-contacts {
+  display: inline-block;
+  margin-top: 9px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -205,6 +210,7 @@ body {
   color: var(--footer-contacts-color);
 }
 .socials-container {
+  display: block;
   margin-right: 93px;
 }
 .text-join {
@@ -241,7 +247,6 @@ body {
   background-color: var(--socials-hover-color);
   fill: var(--socials-hover-fill);
 }
-
 .footer-socials-list:nth-child(4) {
   margin-right: 0px;
 }

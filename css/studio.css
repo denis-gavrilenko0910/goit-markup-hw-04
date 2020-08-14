@@ -52,8 +52,8 @@
 
   background-color: var(--hero-background-color);
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
     ),
     url('../img/header-img/headerimg.jpg');
   background-repeat: no-repeat;
@@ -255,10 +255,24 @@
 }
 
 .clients .list {
-  width: 170px;
   margin-right: 30px;
 }
+.clients-icon {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
 
-.clients .list:nth-child(7n) {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  fill: var(--icon-fill);
+}
+.clients-icon:hover {
+  color: var(--clients-hover-color);
+  fill: var(--clients-hover-fill);
+  border: 1px solid var(--clients-hover-color);
+}
+.clients .list:nth-child(6n) {
   margin-right: 0px;
 }
