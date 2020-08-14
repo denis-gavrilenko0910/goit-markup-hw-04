@@ -172,9 +172,7 @@ body {
   padding: 60px 15px;
   align-items: center;
 }
-.address-info {
-  font-style: normal;
-}
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -183,7 +181,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 19px;
+  line-height: 31px;
   letter-spacing: 0.03em;
 }
 .studio-title {
@@ -199,9 +197,17 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
+.address-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
 .footer-contacts {
   display: inline-block;
   margin-top: 9px;
+
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -216,6 +222,7 @@ body {
 .text-join {
   display: flex;
   margin-bottom: 20px;
+
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
